@@ -1,0 +1,389 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "College students at L. D. College of Engineering",
+        "A team of talented students from L. D. College of Engineering",
+        "We were created by a group of innovative students",
+        "Our developers are students from L. D. College of Engineering",
+        "We were designed and developed by college students"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "You can call me Mind Reader.",
+        "I'm Mind Reader",
+        "I am a Chatbot.",
+        "I am your helper"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "L. D. College of Engineering is open 10:30am-5:30pm Monday-Saturday!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "You can contact L. D. College of Engineering at: +91 79 2630 2887"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_available",
+      "patterns": [
+        "courses available",
+        "list of courses",
+        "programs offered",
+        "academic programs",
+        "courses offered by department",
+        "what courses do you offer",
+        "course catalog",
+        "list of departments",
+        "departments and courses"
+      ],
+      "responses": [
+        "We offer a wide range of undergraduate and postgraduate programs across various disciplines, including engineering, management, and humanities.",
+        "Our course catalog includes over 50 programs, including B.Tech, M.Tech, MBA, and Ph.D.",
+        "You can find a list of our academic programs on our website, along with detailed information on each course.",
+        "We have a total of 10 departments, each offering a range of courses and programs.",
+        "Our departments include Computer Science, Mechanical Engineering, Electrical Engineering, and more.",
+        "You can visit our website to explore our course catalog and learn more about our programs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college_names",
+      "patterns": [
+        "names of government engineering colleges",
+        "list of government engineering colleges",
+        "government engineering colleges",
+        "names of government colleges",
+        "list of government colleges",
+        "government colleges",
+        "colleges in gujarat",
+        "engineering colleges in gujarat",
+        "colleges",
+        "top engineering colleges in gujarat",
+        "government colleges in gujarat"
+      ],
+      "responses": [
+        "Some of the top government engineering colleges in Gujarat include L. D. College of Engineering, Sardar Vallabhbhai National Institute of Technology, and Gujarat Technological University.",
+        "Other government engineering colleges in Gujarat include Birla Vishvakarma Mahavidyalaya, Government Engineering College, Modasa, and Government Engineering College, Rajkot.",
+        "You can find a complete list of government engineering colleges in Gujarat on the official website of the Admission Committee for Professional Courses (ACPC)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "how much is the fees",
+        "hostel fees",
+        "fees for AC room",
+        "fees for non-AC room",
+        "fees for Ac room for girls",
+        "fees for non-Ac room for girls",
+        "fees for Ac room for boys",
+        "fees for non-Ac room for boys"
+      ],
+      "responses": [
+        "For fee details, please visit the L. D. College of Engineering official website."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college is located at",
+        "where is college",
+        "where is college located",
+        "address of college",
+        "how to reach college",
+        "college location",
+        "college address",
+        "wheres the college",
+        "how can I reach college",
+        "whats is the college address",
+        "what is the address of college",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "L. D. College of Engineering is located at: 120 Circular Road, University Area, Ahmedabad, Gujarat 380015, India."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel service",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does college provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from college",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and college"
+      ],
+      "responses": [
+        "For hostel details, please visit the L. D. College of Engineering official website.",
+        "Yes, our college provides hostel facilities for students.",
+        "The hostel is located near the college campus.",
+        "You can find the hostel address on our college website.",
+        "The hostel fees vary depending on the type of accommodation.",
+        "Our hostel has a capacity of 500 students.",
+        "The hostel is just a 5-minute walk from the college."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "events organised",
+        "list of events",
+        "list of events organised in college",
+        "list of events conducted in college",
+        "What events are conducted in college",
+        "Are there any event held at college",
+        "Events?",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "For event details, please visit the L. D. College of Engineering official website.",
+        "Our college organizes various events throughout the year, including tech fests, cultural programs, and sports meets.",
+        "Some of the recent events organized by our college are TechFest, Cultural Extravaganza, and Sports Day.",
+        "You can check the college website for the latest updates on upcoming events.",
+        "Our college also encourages students to organize and participate in various club activities and workshops."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "document",
+      "patterns": [
+        "document to bring",
+        "documents needed for admission",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admission",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "What document are required for admission",
+        "Which document to bring for admission",
+        "documents",
+        "what documents do i need",
+        "what documents do I need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "To know more about the required documents, please visit the L. D. College of Engineering official website.",
+        "The required documents for admission typically include mark sheets, certificates, and identification proof.",
+        "You will need to bring original and photocopies of your academic documents, such as 10th and 12th mark sheets, and transfer certificates.",
+        "Please check the college website for the detailed list of documents required for admission.",
+        "It's also a good idea to carry multiple copies of your documents, in case you need them for any other purpose."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "floors",
+      "patterns": [
+        "size of campus",
+        "building size",
+        "How many floors does college have",
+        "floors in college",
+        "floors in college",
+        "how tall is UNI's College of Engineering college building",
+        "how many floors",
+        "how many floors are there in college",
+        "how many floors are there",
+        "how many floors does UNI's College of Engineering have",
+        "floors",
+        "size"
+      ],
+      "responses": [
+        "L. D. College of Engineering has 3 floors in the main academic building.",
+        "The college building is a three-story structure, with each floor dedicated to different departments and facilities.",
+        "The campus is spread over a large area, with multiple buildings, including the main academic building which has 3 floors.",
+        "You can find more information about the college infrastructure on our official website.",
+        "The college is constantly upgrading its infrastructure, so the number of floors may change in the future."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement statistics",
+        "placement rate",
+        "job placement",
+        "job placement rate",
+        "average salary",
+        "top recruiters",
+        "placement",
+        "career services",
+        "career guidance",
+        "employment rate",
+        "placement assistance"
+      ],
+      "responses": [
+        "L. D. College of Engineering has a strong placement record, with over 85% of students placed in top companies.",
+        "Our average salary package is around 6 LPA, with top recruiters including TCS, Wipro, and Infosys.",
+        "We offer comprehensive career services, including counseling, workshops, and job fairs, to help students find their dream jobs.",
+        "Our placement team works closely with industry partners to ensure that students have access to the best job opportunities.",
+        "You can find more information about our placement statistics and career services on our official website."
+      ],
+      "context_set": ""
+    }
+  ]
+}
